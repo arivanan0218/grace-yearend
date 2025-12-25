@@ -132,7 +132,7 @@ export default function EmployeeCard({ employee, isActive }: EmployeeCardProps) 
             </div>
 
             {/* Name */}
-            <h2 className={`text-7xl font-bold text-gray-900 mb-8 text-center leading-tight animate-subtle-pulse ${isActive ? "" : "opacity-0"}`}>
+            <h2 className={`text-7xl font-bold text-gray-900 mb-1 text-center leading-tight animate-subtle-pulse ${isActive ? "" : "opacity-0"}`}>
               {employee.name}
             </h2>
 
