@@ -98,14 +98,14 @@ export default function EmployeeCard({ employee, isActive }: EmployeeCardProps) 
           {/* Employee Content */}
           <div className={`relative z-10 flex flex-col items-center ${isActive ? "" : "opacity-0"}`}>
             {/* Photo with animated border */}
-            <div className="relative mb-12 animate-float-subtle">
+            <div className="relative mb-16 animate-float-subtle">
               <div className="absolute inset-0 bg-gradient-to-br from-teal-600 via-emerald-500 to-green-500 rounded-full animate-spin-slow"></div>
               <div className="absolute inset-0 bg-gradient-to-tr from-green-400 via-teal-500 to-emerald-600 rounded-full animate-spin-reverse opacity-50"></div>
               
               {/* Pulsing ring effect */}
               <div className="absolute inset-0 rounded-full animate-ping-slow opacity-20 bg-teal-500"></div>
               
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl m-2 animate-glow">
+              <div className="relative w-96 h-96 rounded-full overflow-hidden border-8 border-white shadow-2xl m-2 animate-glow">
                 <div className="w-full h-full relative">
                   <Image
                     src={employee.image}
@@ -132,12 +132,12 @@ export default function EmployeeCard({ employee, isActive }: EmployeeCardProps) 
             </div>
 
             {/* Name */}
-            <h2 className={`text-6xl font-bold text-gray-900 mb-6 text-center leading-tight animate-subtle-pulse ${isActive ? "" : "opacity-0"}`}>
+            <h2 className={`text-7xl font-bold text-gray-900 mb-8 text-center leading-tight animate-subtle-pulse ${isActive ? "" : "opacity-0"}`}>
               {employee.name}
             </h2>
 
             {/* Position */}
-            <p className={`text-3xl text-gray-600 font-medium text-center animate-fade-pulse ${isActive ? "" : "opacity-0"}`}>
+            <p className={`text-4xl text-gray-600 font-medium text-center animate-fade-pulse ${isActive ? "" : "opacity-0"}`}>
               {employee.position}
             </p>
             
