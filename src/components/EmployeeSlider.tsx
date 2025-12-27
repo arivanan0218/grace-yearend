@@ -46,28 +46,6 @@ export default function EmployeeSlider() {
         ))}
       </div>
 
-      {/* Progress Indicators */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">
-        {employees.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => {
-              if (!isAnimating) {
-                setIsAnimating(true);
-                setCurrentIndex(index);
-                setTimeout(() => setIsAnimating(false), 700);
-              }
-            }}
-            className={`transition-all duration-300 rounded-full ${
-              index === currentIndex
-                ? "w-12 h-4 bg-teal-600"
-                : "w-4 h-4 bg-white/50 hover:bg-white/80"
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
-
     </div>
   );
 }
