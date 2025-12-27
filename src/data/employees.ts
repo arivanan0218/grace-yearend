@@ -64,7 +64,7 @@ export const employees: Employee[] = [
     id: 10,
     name: "Akash Amalathas",
     position: "Senior Quantity Surveyor",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/aakash.jpeg"
   },
    {
     id: 11,
@@ -88,25 +88,25 @@ export const employees: Employee[] = [
     id: 14,
     name: "N. M. Musaib",
     position: "Engineering Assistant",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/mus.jpeg"
   },
    {
     id: 15,
     name: "M.T.M. Aathil",
     position: "Assistant Engineer",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/aadil.jpeg"
   },
   {
     id: 16,
     name: "Dafni Ockersz",
     position: "Quantity Surveyor",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/dafni.jpeg"
   },
   {
     id: 17,
     name: "M.H.D. Farhan",
     position: "Quantity Surveyor",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/far.jpeg"
   },
    {
     id: 18,
@@ -196,7 +196,7 @@ export const employees: Employee[] = [
     id: 32,
     name: "Thayalanesan Titus",
     position: "Project Manager",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/titus.jpeg"
   },
    {
     id: 33,
