@@ -214,7 +214,7 @@ export const employees: Employee[] = [
     id: 35,
     name: "Rishoban",
     position: "Trainee",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/risho.jpeg"
   },
     {
     id: 36,
@@ -226,7 +226,7 @@ export const employees: Employee[] = [
     id: 37,
     name: "Sajeeth",
     position: "Trainee",
-    image: "/assets/profile/dummy.jpg"
+    image: "/assets/profile/sajith.jpeg"
   },
     {
     id: 38,
